@@ -15,3 +15,14 @@ if (number <= 0) {
     }
     alert("Сумма: " + sum)
 }
+
+/*
+2) Треугольник в цикле
+Напишите цикл, который за 7 вызовов console.log выводит такой треугольник:
+*/
+
+let string = "";
+while(string.length < 7) {
+    string += "#"
+    console.log(string)
+}
